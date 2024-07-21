@@ -1,7 +1,7 @@
 # Todo-app
 todo-app backend
 
-This is the backend for the Todo App, providing API endpoints for managing todos./n
+This is the backend for the Todo App, providing API endpoints for managing todos.
 
 **Table of Contents**
 
