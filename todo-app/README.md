@@ -24,9 +24,11 @@ This is the backend for the Todo App, providing API endpoints for managing todos
 -License
 
 **Getting Started**
+
 These instructions will get you a copy of the backend project up and running on your local machine for development and testing purposes.
 
 **Prerequisites**
+
 -Node.js
 
 -npm (Node package manager)
@@ -41,7 +43,7 @@ These instructions will get you a copy of the backend project up and running on 
 
 2.Move to the todo-app directory: cd todo-app
 
-4.Install the dependencies:
+3.Install the dependencies:
 
 npm install
 
@@ -49,11 +51,11 @@ npm install express mongoose dotenv cors nodemon
 
 npm install swagger-jsdoc swagger-ui-express
 
-5.Create a .env file in the root of the project and add your MongoDB URI:
+4.Create a .env file in the root of the project and add your MongoDB URI:
 
 PORT=5000
 
-MONGO_URI=<your-mongodb-connection-string>
+MONGO_URI= //your-mongodb-connection-string//
 
 **Running the Server**
 
@@ -96,21 +98,37 @@ The test command should be specified in the package.json file as follows:
 **Project Structure**
 
 todo-app/
+
 │
+
 ├── backend/
+
 │   ├── controllers/
+
 │   │   └── todoController.js
+
 │   ├── models/
+
 │   │   └── Todo.js
+
 │   ├── routes/
+
 │   │   └── todoRoutes.js
+
 │   ├── tests/
+
 │   │   └── todo.test.js
+
 │   ├── .env
+
 │   ├── app.js
+
 │   ├── package.json
+
 │   ├── package-lock.json
+
 ├── .gitignore
+
 └── README.md
 
 controllers/todoControllers.js: Defines the logic for handling CRUD operations for todos, including fetching all todos, creating a new todo, updating an existing todo, and deleting a todo.
