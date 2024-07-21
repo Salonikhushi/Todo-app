@@ -6,7 +6,9 @@ This is the backend for the Todo App, providing API endpoints for managing todos
 **Table of Contents**
 
 -Getting Started
+
 -Prerequisites
+
 -Installation
 -Running the Server
 -API Endpoints
