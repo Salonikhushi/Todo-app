@@ -39,11 +39,11 @@ These instructions will get you a copy of the backend project up and running on 
 
 **Installation**
 
-1.Clone the repository:git clone https://github.com/Salonikhushi/Todo-app.git
+1. Clone the repository:git clone https://github.com/Salonikhushi/Todo-app.git
 
-2.Move to the todo-app directory: cd todo-app
+2. Move to the todo-app directory: cd todo-app
 
-3.Install the dependencies:
+3. Install the dependencies:
 
 npm install
 
@@ -51,7 +51,7 @@ npm install express mongoose dotenv cors nodemon
 
 npm install swagger-jsdoc swagger-ui-express
 
-4.Create a .env file in the root of the project and add your MongoDB URI:
+4. Create a .env file in the root of the project and add your MongoDB URI:
 
 PORT=5000
 
@@ -59,11 +59,11 @@ MONGO_URI= //your-mongodb-connection-string//
 
 **Running the Server**
 
-1.Move to backend folder: cd backend
+1. Move to backend folder: cd backend
 
-2.Start the backend server with the following command: npm start dev
+2. Start the backend server with the following command: npm start dev
 
-3.The server will start on http://localhost:5000.
+3. The server will start on http://localhost:5000.
 
 **API Endpoints**
 
@@ -79,11 +79,11 @@ MONGO_URI= //your-mongodb-connection-string//
 
 To run the tests using Mocha or Chai, follow these steps:
 
-1.Install Mocha/Chai: npm install --save-dev mocha chai supertest
+1. Install Mocha/Chai: npm install --save-dev mocha chai supertest
 
-2.Write your tests in the test directory. Ensure your test files have the .test.js extension.
+2. Write your tests in the test directory. Ensure your test files have the .test.js extension.
 
-3.Run the tests: 
+3. Run the tests: 
 
 cd backend
 
@@ -147,15 +147,15 @@ package.json: Contains the project dependencies and scripts.
 
 **Contributing**
 
-1.Fork the repository
+1. Fork the repository
 
-2.Create your feature branch (git checkout -b feature/new-feature)
+2. Create your feature branch (git checkout -b feature/new-feature)
 
-3.Commit your changes (git commit -m 'Add some new feature')
+3. Commit your changes (git commit -m 'Add some new feature')
 
-4.Push to the branch (git push origin feature/new-feature)
+4. Push to the branch (git push origin feature/new-feature)
 
-5.Open a pull request
+5. Open a pull request
 
 **License**
 
